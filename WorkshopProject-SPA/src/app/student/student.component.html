@@ -1,0 +1,22 @@
+<h1>
+    Hello Buddy ! <br>
+    I am Student Component ! 
+</h1>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th> Student Id</th>
+        <th>Name</th>
+        <th>Department</th>
+      </tr>
+    </thead> 
+    
+    <tbody>
+      <tr *ngFor="let student of students">
+        <td>{{ student.id }}</td>
+        <td> {{ student.name }} </td>
+        <td>{{ student.department }}</td>
+      </tr>
+    </tbody>
+  </table>

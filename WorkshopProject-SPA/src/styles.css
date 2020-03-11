@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules//alertifyjs//build//css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+
+ body {
+	 margin: 0;
+	 font-family: 'Nunito', 'sans-serif';
+	 font-size: 18px;
+}
+ .container {
+	 width: 80%;
+	 margin: 0 auto;
+}
+ header {
+	 background: #1976d2;
+	 padding: 1em 0;
+}
+ header a {
+	 color: white;
+	 text-decoration: none;
+}
+ header a.logo {
+	 font-weight: bold;
+}
+ header nav {
+	 float: right;
+}
+ header nav ul {
+	 list-style-type: none;
+	 margin: 0;
+	 display: flex;
+}
+ header nav ul li a {
+	 padding: 1em;
+}
+ header nav ul li a:hover {
+	 background: #045cb2;
+}
+ h1 {
+	 margin-top: 2em;
+}
+ 

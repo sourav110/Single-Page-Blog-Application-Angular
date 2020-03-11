@@ -1,0 +1,19 @@
+<h1>
+    Welcome from Value Component ! 
+</h1>
+
+  <table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th> Value Id</th>
+        <th>Name</th>
+      </tr>
+    </thead> 
+    
+    <tbody>
+      <tr *ngFor="let value of values">
+        <td>{{ value.id }}</td>
+        <td> {{ value.name }} </td>
+      </tr>
+    </tbody>
+  </table>

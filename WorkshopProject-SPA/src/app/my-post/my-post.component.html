@@ -1,0 +1,24 @@
+<h1>
+    My-Posts [Customized]
+</h1>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Body</th>
+        <th>Author</th>
+      </tr>
+    </thead> 
+    
+    <tbody>
+      <tr *ngFor="let mypost of myPosts">
+        <td>{{ mypost.id }}</td>
+        <td> {{ mypost.title }} </td>
+        <td>{{ mypost.body }}</td>
+        <td>{{ mypost.author }}</td>
+      </tr>
+    </tbody>
+  </table>
+
